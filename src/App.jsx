@@ -19,6 +19,7 @@ function App() {
         </ol>
         <GameBoard onSelectSquare={handleSelectSquare} activePlayerSymbol={activePlayer}/>
       </div>
+      <Log />
     </main>
   );
 }
